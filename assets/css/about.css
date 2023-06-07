@@ -1,0 +1,79 @@
+element.style {
+    text-align: center;
+    font-size: 50px;
+    margin-top: -50px;
+    color: white;
+}
+
+.has-bg-image {
+    background: rgb(14, 131, 154);
+    background: linear-gradient(90deg, rgba(14, 131, 154, 1) 0%, rgba(15, 29, 75, 1) 55%, rgba(0, 2, 51, 1) 86%);
+
+}
+
+.aboutH1 {
+    color: rgba(255, 255, 255, 0.788);
+    font-size: 35px;
+    text-align: center;
+
+
+}
+
+
+.about-sectionI {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8vw;
+    margin-top: 10vh;
+    overflow: hidden;
+
+}
+
+.leftA {
+    width: 44vw;
+    height: auto;
+    background: #0F2027;
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    color: white;
+    padding: 15px;
+    border-radius: 20px;
+
+}
+
+.rightA {
+    width: 40vw;
+}
+
+.about-section-image {
+    margin-top: 10vh;
+    width: auto;
+    height:70vh;
+
+}
+
+.who-we-are {
+    margin-top: 15vh;
+    padding-inline: 40px;
+    padding-block: 20px;
+}
+.blackh1{
+    color: rgb(31, 19, 71);
+    margin-bottom: 10vh;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .about-section-image {
+        margin-top: 10vh;
+        width:95vw;
+        height:auto;
+        margin-left: -25vw;
+    
+    }
+    .leftA {
+        width: 90vw;
+    }
+}

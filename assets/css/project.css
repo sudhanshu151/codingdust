@@ -1,0 +1,67 @@
+.has-bg-image {
+    background: rgb(14, 131, 154);
+    background: linear-gradient(90deg, rgba(14, 131, 154, 1) 0%, rgba(15, 29, 75, 1) 55%, rgba(0, 2, 51, 1) 86%);
+
+}
+
+.aboutH1 {
+    color: rgba(255, 255, 255, 0.788);
+    font-size: 35px;
+    text-align: center;
+
+
+}
+.project-section {
+    display: flex;
+    flex-direction: column;
+    gap: 10vh;
+    margin-bottom: 10vh;
+}
+
+.project {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5vw;
+    margin-inline: 5vw;
+    margin-top: 8vh;
+
+}
+
+.project-heading {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+
+.project-i {
+    width: 42vw;
+}
+
+.project-image {
+    height: auto;
+    width: 42vw;
+    border-radius: 0px 15px 0px 15px;
+    border-bottom: 3px solid rgb(88, 125, 190);
+    border-right: 3px solid rgb(88, 125, 190);
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .project {
+        display: flex;
+
+    }
+
+    .project-i {
+        width: 90vw;
+    }
+
+    .project-image {
+        height: 220px;
+        width: 90vw;
+    }
+
+}
