@@ -49,7 +49,7 @@
     border-radius: 50%;
     font-size: 22px;
 }
-
+ 
 .contactInfo .box .text {
     display: flex;
     margin-left: 20px;
@@ -89,9 +89,10 @@
 .contactForm .inputBox input,
 .contactForm .inputBox textarea {
     width: 100%;
-    padding: 5px 0;
+    padding:10px 0;
+
     font-size: 16px;
-    margin: 10px 0;
+    margin: -5px 0;
     border: none;
     border-bottom: 2px solid #333;
     outline: none;
